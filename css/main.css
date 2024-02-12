@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Protest Revolution';
+    src: url('../fonts/ProtestRevolution-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ProtestRevolution-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ProtestRevolution-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ProtestRevolution-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ProtestRevolution-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-image: url("../assets/background.png");
+}
+
+.hidden {
+    display: none;
+}
