@@ -51,9 +51,9 @@ export class Planet {
    */
   hit(damage) {
     if (this.game.paused) {
-      this.hit = this._runningHit;
-    } else {
       this.hit = this._pausedHit;
+    } else {
+      this.hit = this._runningHit;
     }
     this.hit(damage);
   }
